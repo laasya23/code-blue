@@ -1,0 +1,204 @@
+{
+  "businesses": [
+    {
+      "id": "be-on-mirrors",
+      "name": "Be On Mirrors",
+      "tagline": "The Unisex Salon",
+      "fullTitle": "Be On Mirrors - The Unisex Salon | Premium Beauty Services in Hyderabad",
+      "description": "Transform your style at Hyderabad's premier unisex salon. Where beauty meets excellence.",
+      "address": "Lane, opposite Ameenpur police station, Madhura Nagar Colony, Beeramguda, Hyderabad, Telangana 502032",
+      "phone": "083410 75644",
+      "whatsapp": "918341075644",
+      "area": "Beeramguda",
+      "images": {
+        "hero": "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1200",
+        "about": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
+        "contact": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
+        "gallery": [
+          "https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqZ12I-iSdSc9f3ooNnmXXLhNTtbHwj1Dhh-oP4oetiB0C4HmoiZ8tGfjyqRQsyL6XI3EOXeSpD27lBKzkWkEaKRdP1-MUW4cJ8Ie7uDTof-bbUFrM6hs4XbqC1WFJJxDfAVasj=s1360-w1360-h1020",
+          "https://images.pexels.com/photos/3065171/pexels-photo-3065171.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3997997/pexels-photo-3997997.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3065307/pexels-photo-3065307.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3992865/pexels-photo-3992865.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600",
+          "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ]
+      },
+      "testimonials": [
+        {
+          "name": "Sarah Johnson",
+          "role": "Regular Client",
+          "image": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "rating": 5,
+          "text": "Absolutely amazing experience! The stylist understood exactly what I wanted and delivered beyond my expectations. The salon atmosphere is so relaxing and professional."
+        },
+        {
+          "name": "Michael Chen",
+          "role": "Business Professional",
+          "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100",
+          "rating": 5,
+          "text": "Best salon experience I've ever had! The team is incredibly talented and the results speak for themselves. I always leave feeling confident and stylish."
+        },
+        {
+          "name": "Emma Rodriguez",
+          "role": "Fashion Designer",
+          "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100",
+          "rating": 5,
+          "text": "From the moment I walked in, I felt welcomed and valued. The attention to detail and level of service is unmatched. Highly recommend to everyone!"
+        }
+      ]
+    },
+    {
+      "id": "black-white-salon",
+      "name": "Black & White Hair & Beauty",
+      "tagline": "Unisex Salon",
+      "fullTitle": "Black & White Hair & Beauty - Unisex Salon | Premium Beauty Services in Hyderabad",
+      "description": "Experience premium hair and beauty services at Hyderabad's trusted unisex salon.",
+      "address": "Burger King, Sekhar's arcade, 25-35/3/D, RC Puram Rd, Beeramguda, Hyderabad, Ramachandrapuram (BHEL Township), Telangana 502032",
+      "phone": "To be updated",
+      "whatsapp": "918341075644",
+      "area": "Beeramguda",
+      "images": {
+        "hero": "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1200",
+        "about": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
+        "contact": "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "gallery": [
+          "https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqZ12I-iSdSc9f3ooNnmXXLhNTtbHwj1Dhh-oP4oetiB0C4HmoiZ8tGfjyqRQsyL6XI3EOXeSpD27lBKzkWkEaKRdP1-MUW4cJ8Ie7uDTof-bbUFrM6hs4XbqC1WFJJxDfAVasj=s1360-w1360-h1020",
+          "https://images.pexels.com/photos/3065171/pexels-photo-3065171.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3997997/pexels-photo-3997997.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3065307/pexels-photo-3065307.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3992865/pexels-photo-3992865.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600",
+          "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ]
+      },
+      "testimonials": [
+        {
+          "name": "Priya Sharma",
+          "role": "Regular Customer",
+          "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100",
+          "rating": 5,
+          "text": "Absolutely love the service at Black & White! The staff is professional and the results are always amazing. My go-to salon for all beauty needs."
+        },
+        {
+          "name": "Rahul Patel",
+          "role": "Software Engineer",
+          "image": "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=100",
+          "rating": 5,
+          "text": "Great experience every time! The men's grooming services are top-notch. The attention to detail and customer service is exceptional."
+        },
+        {
+          "name": "Sneha Reddy",
+          "role": "Marketing Manager",
+          "image": "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=100",
+          "rating": 5,
+          "text": "Perfect for my bridal preparations! The team made sure I looked stunning on my wedding day. Highly recommend their bridal packages."
+        }
+      ]
+    },
+    {
+      "id": "unix-salon",
+      "name": "UNIX Salon & Beauty Parlour",
+      "tagline": "Professional Beauty Services",
+      "fullTitle": "UNIX Salon & Beauty Parlour | Professional Beauty Services in Hyderabad",
+      "description": "Your trusted destination for professional beauty and grooming services in Hyderabad.",
+      "address": "Shop No.C 9 10 M.S.R. Residency, Near Monday Market, Sai Colony, Jayalaxmi Nagar, Beeramguda, Ramachandrapuram, Telangana 502032",
+      "phone": "099485 04143",
+      "whatsapp": "919948504143",
+      "area": "Beeramguda",
+      "images": {
+        "hero": "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1200",
+        "about": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
+        "contact": "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "gallery": [
+          "https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqZ12I-iSdSc9f3ooNnmXXLhNTtbHwj1Dhh-oP4oetiB0C4HmoiZ8tGfjyqRQsyL6XI3EOXeSpD27lBKzkWkEaKRdP1-MUW4cJ8Ie7uDTof-bbUFrM6hs4XbqC1WFJJxDfAVasj=s1360-w1360-h1020",
+          "https://images.pexels.com/photos/3065171/pexels-photo-3065171.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3997997/pexels-photo-3997997.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3065307/pexels-photo-3065307.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3992865/pexels-photo-3992865.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600",
+          "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ]
+      },
+      "testimonials": [
+        {
+          "name": "Anita Kumar",
+          "role": "Teacher",
+          "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100",
+          "rating": 5,
+          "text": "UNIX Salon provides excellent service with a personal touch. The staff is friendly and skilled. I always leave satisfied with my hair and beauty treatments."
+        },
+        {
+          "name": "Vikram Singh",
+          "role": "Business Owner",
+          "image": "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=100",
+          "rating": 5,
+          "text": "Professional service and great value for money. The salon maintains high standards and the staff is very courteous. Highly recommended!"
+        },
+        {
+          "name": "Kavya Nair",
+          "role": "Designer",
+          "image": "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=100",
+          "rating": 5,
+          "text": "Amazing experience at UNIX Salon! They understand exactly what you want and deliver perfectly. The ambiance is great and services are top-notch."
+        }
+      ]
+    },
+    {
+      "id": "cutes-beauty-salon",
+      "name": "Cutes Beauty Salon",
+      "tagline": "Men & Women",
+      "fullTitle": "Cutes Beauty Salon - Men & Women | Premium Beauty Services in Hyderabad",
+      "description": "Complete beauty solutions for men and women at Hyderabad's modern beauty salon.",
+      "address": "25-36-8/A, Krishna Reddy Pet Rd, Mallikarjuna Nagar, Raghavendra Colony, Ramachandrapuram, Hyderabad, Telangana 502032",
+      "phone": "081210 21089",
+      "whatsapp": "918121021089",
+      "area": "Ramachandrapuram",
+      "images": {
+        "hero": "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1200",
+        "about": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
+        "contact": "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "gallery": [
+          "https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600",
+          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqZ12I-iSdSc9f3ooNnmXXLhNTtbHwj1Dhh-oP4oetiB0C4HmoiZ8tGfjyqRQsyL6XI3EOXeSpD27lBKzkWkEaKRdP1-MUW4cJ8Ie7uDTof-bbUFrM6hs4XbqC1WFJJxDfAVasj=s1360-w1360-h1020",
+          "https://images.pexels.com/photos/3065171/pexels-photo-3065171.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3997997/pexels-photo-3997997.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3065307/pexels-photo-3065307.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.pexels.com/photos/3992865/pexels-photo-3992865.jpeg?auto=compress&cs=tinysrgb&w=800",
+          "https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600",
+          "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800"
+        ]
+      },
+      "testimonials": [
+        {
+          "name": "Meera Joshi",
+          "role": "Homemaker",
+          "image": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=100",
+          "rating": 5,
+          "text": "Cutes Beauty Salon is my family's favorite! They provide excellent services for both men and women. The staff is skilled and the prices are reasonable."
+        },
+        {
+          "name": "Arjun Reddy",
+          "role": "Student",
+          "image": "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=100",
+          "rating": 5,
+          "text": "Great place for men's grooming! The barbers are experienced and know the latest trends. Always satisfied with their service and friendly atmosphere."
+        },
+        {
+          "name": "Divya Rao",
+          "role": "IT Professional",
+          "image": "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=100",
+          "rating": 5,
+          "text": "Wonderful experience every time! The salon offers great services for women with modern techniques. The staff is professional and very accommodating."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Directory of Premium Beauty Salons and Parlours in Hyderabad. Find the best beauty services near you."
+    />
+    <meta
+      name="keywords"
+      content="beauty salon directory, Hyderabad salons, beauty parlours, hair styling, grooming services"
+    />
+    <meta name="author" content="Salon Directory" />
+
+    <!-- Open Graph Tags -->
+    <meta
+      property="og:title"
+      content="Salon & Beauty Directory | Premium Beauty Services in Hyderabad"
+    />
+    <meta
+      property="og:description"
+      content="Discover the best beauty salons and parlours in Hyderabad. Professional styling, beauty treatments, and grooming services."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    />
+
+    <title>
+      Salon & Beauty Directory | Premium Beauty Services in Hyderabad
+    </title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+      * {
+        font-family: "Inter", sans-serif;
+      }
+
+    
+
+      .card-hover {
+        transition: all 0.3s ease;
+      }
+
+      .card-hover:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      }
+
+      .fade-in {
+        opacity: 0;
+        animation: fadeIn 0.6s ease forwards;
+      }
+
+      @keyframes fadeIn {
+        to {
+          opacity: 1;
+        }
+      }
+
+      .slide-in {
+        transform: translateY(30px);
+        opacity: 0;
+        animation: slideIn 0.8s ease forwards;
+      }
+
+      @keyframes slideIn {
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+
+      .business-card {
+        background: linear-gradient(
+          135deg,
+          rgba(255, 255, 255, 0.9) 0%,
+          rgba(255, 255, 255, 0.7) 100%
+        );
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
+     
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="#home"
+              class="text-gray-700 hover:text-yellow-600 transition-colors"
+              >Home</a
+            >
+            <a
+              href="#salons"
+              class="text-gray-700 hover:text-yellow-600 transition-colors"
+              >Salons</a
+            >
+            <a
+              href="#about"
+              class="text-gray-700 hover:text-yellow-600 transition-colors"
+              >About</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Salons Directory Section -->
+    <section id="salons" class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            Featured Salons & Beauty Parlours
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            Choose from our curated selection of premium beauty destinations in
+            Hyderabad
+          </p>
+        </div>
+
+        <div id="salons-grid" class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+          <!-- Salons will be loaded here dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">
+            Why Choose Our Directory?
+          </h2>
+          <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+            We connect you with the best beauty professionals in Hyderabad
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="text-center p-8">
+            <div
+              class="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <i data-lucide="award" class="w-8 h-8 text-yellow-600"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">
+              Verified Quality
+            </h3>
+            <p class="text-gray-600">
+              All salons are carefully selected for their professional standards
+              and customer satisfaction.
+            </p>
+          </div>
+
+          <div class="text-center p-8">
+            <div
+              class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <i data-lucide="map-pin" class="w-8 h-8 text-pink-600"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">
+              Convenient Locations
+            </h3>
+            <p class="text-gray-600">
+              Find beauty services in your neighborhood with detailed location
+              information.
+            </p>
+          </div>
+
+          <div class="text-center p-8">
+            <div
+              class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6"
+            >
+              <i data-lucide="phone" class="w-8 h-8 text-blue-600"></i>
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-4">Easy Booking</h3>
+            <p class="text-gray-600">
+              Direct contact options including WhatsApp for quick and easy
+              appointment booking.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <div class="flex items-center justify-center space-x-2 mb-4">
+            <i data-lucide="scissors" class="w-8 h-8 text-yellow-400"></i>
+            <span class="text-2xl font-bold">Salon & Beauty Directory</span>
+          </div>
+          <p class="text-gray-400 leading-relaxed mb-4">
+            Your trusted guide to the best beauty salons and parlours in
+            Hyderabad.
+          </p>
+        </div>
+
+        <div
+          class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400"
+        >
+          <p>&copy; 2024 Salon & Beauty Directory. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Initialize Lucide icons
+      lucide.createIcons();
+
+      let businessData = null;
+
+      // Load business data
+      async function loadBusinessData() {
+        try {
+          const response = await fetch("./businesses.json");
+          businessData = await response.json();
+          displaySalons();
+        } catch (error) {
+          console.error("Error loading business data:", error);
+          // Fallback data if JSON fails to load
+          businessData = {
+            businesses: [
+              {
+                id: "be-on-mirrors",
+                name: "Be On Mirrors",
+                tagline: "The Unisex Salon",
+                description:
+                  "Transform your style at Hyderabad's premier unisex salon.",
+                address: "Madhura Nagar Colony, Beeramguda, Hyderabad",
+                phone: "083410 75644",
+                whatsapp: "918341075644",
+                area: "Beeramguda",
+              },
+            ],
+          };
+          displaySalons();
+        }
+      }
+
+      function displaySalons() {
+        const salonsGrid = document.getElementById("salons-grid");
+        salonsGrid.innerHTML = "";
+
+        businessData.businesses.forEach((business) => {
+          const salonCard = createSalonCard(business);
+          salonsGrid.appendChild(salonCard);
+        });
+      }
+
+      function createSalonCard(business) {
+        const card = document.createElement("div");
+        card.className =
+          "business-card card-hover p-8 rounded-2xl shadow-lg cursor-pointer";
+        card.onclick = () => openSalonPage(business.id);
+
+        card.innerHTML = `
+                <div class="flex items-start space-x-4 mb-6">
+                    <div class="w-16 h-16 bg-gradient-to-br from-yellow-500 to-pink-500 rounded-full flex items-center justify-center flex-shrink-0">
+                        <i data-lucide="scissors" class="w-8 h-8 text-white"></i>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">${
+                          business.name
+                        }</h3>
+                        <p class="text-yellow-600 font-semibold mb-2">${
+                          business.tagline
+                        }</p>
+                        <p class="text-gray-600 leading-relaxed">${
+                          business.description
+                        }</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-3 mb-6">
+                    <div class="flex items-center text-gray-600">
+                        <i data-lucide="map-pin" class="w-5 h-5 mr-3 text-yellow-500"></i>
+                        <span class="text-sm">${business.area}, Hyderabad</span>
+                    </div>
+                    ${
+                      business.phone !== "To be updated"
+                        ? `
+                    <div class="flex items-center text-gray-600">
+                        <i data-lucide="phone" class="w-5 h-5 mr-3 text-green-500"></i>
+                        <span class="text-sm">+91 ${business.phone}</span>
+                    </div>
+                    `
+                        : ""
+                    }
+                </div>
+                
+                <div class="flex space-x-3">
+                    <button class="flex-1 bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center space-x-2">
+                        <i data-lucide="eye" class="w-4 h-4"></i>
+                        <span>View Details</span>
+                    </button>
+                    <a href="https://wa.me/${
+                      business.whatsapp
+                    }" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center">
+                        <i data-lucide="message-circle" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            `;
+
+        return card;
+      }
+
+      function openSalonPage(businessId) {
+        // Open the individual salon page with the business ID as a parameter
+        window.open(`salon-page.html?business=${businessId}`, "_blank");
+      }
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Add scroll effect to navbar
+      window.addEventListener("scroll", function () {
+        const nav = document.querySelector("nav");
+        if (window.scrollY > 50) {
+          nav.classList.add("shadow-lg");
+          nav.classList.remove("shadow-sm");
+        } else {
+          nav.classList.add("shadow-sm");
+          nav.classList.remove("shadow-lg");
+        }
+      });
+
+      // Animate elements on scroll
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+          }
+        });
+      }, observerOptions);
+
+      // Observe all cards
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(() => {
+          document.querySelectorAll(".card-hover").forEach((card) => {
+            card.style.opacity = "0";
+            card.style.transform = "translateY(30px)";
+            card.style.transition = "all 0.6s ease";
+            observer.observe(card);
+          });
+        }, 100);
+      });
+
+      // Initialize the page
+      loadBusinessData();
+    </script>
+  </body>
+</html>

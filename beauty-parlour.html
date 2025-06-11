@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premium Unisex Salon Services - Professional hair styling, coloring, treatments, and beauty services for men and women. Book your appointment today!"
+    />
+    <meta
+      name="keywords"
+      content="unisex salon, hair salon, beauty salon, hair styling, hair coloring, men's grooming, women's styling"
+    />
+    <meta name="author" content="Be On Mirrors" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Be On Mirrors - The Unisex Salon" />
+    <meta
+      property="og:description"
+      content="Professional hair styling, coloring, and beauty services for men and women. Experience luxury and style at our modern unisex salon."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Be On Mirrors - The Unisex Salon" />
+    <meta
+      name="twitter:description"
+      content="Professional hair styling, coloring, and beauty services for men and women."
+    />
+
+    <title>
+      Be On Mirrors - The Unisex Salon | Hair Styling & Beauty Treatments
+    </title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23d4af37' viewBox='0 0 24 24'%3e%3cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z'/%3e%3c/svg%3e"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <!-- Custom Tailwind Config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gold: "#d4af37",
+              "dark-gold": "#b8941f",
+              "luxury-black": "#1a1a1a",
+              "warm-gray": "#f8f6f3",
+            },
+            fontFamily: {
+              serif: ["Georgia", "serif"],
+              sans: ["system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+
+    <style>
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Custom animations */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .fade-in-up {
+        animation: fadeInUp 0.8s ease-out forwards;
+      }
+
+      /* Gallery carousel styles */
+      .gallery-container {
+        scroll-behavior: smooth;
+      }
+
+      /* Hover effects */
+      .service-card:hover {
+        transform: translateY(-8px);
+        transition: all 0.3s ease;
+      }
+
+      .testimonial-card:hover {
+        transform: scale(1.02);
+        transition: all 0.3s ease;
+      }
+    </style>
+  </head>
+
+  <body class="font-sans antialiased">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex items-center">
+            <i data-lucide="scissors" class="h-8 w-8 text-gold mr-2"></i>
+            <span class="text-xl font-bold text-luxury-black"
+              >Be On Mirrors</span
+            >
+          </div>
+          <div class="hidden md:flex space-x-8">
+            <a
+              href="#home"
+              class="text-gray-700 hover:text-gold transition-colors"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="text-gray-700 hover:text-gold transition-colors"
+              >About</a
+            >
+            <a
+              href="#services"
+              class="text-gray-700 hover:text-gold transition-colors"
+              >Services</a
+            >
+            <a
+              href="#gallery"
+              class="text-gray-700 hover:text-gold transition-colors"
+              >Gallery</a
+            >
+            <a
+              href="#contact"
+              class="text-gray-700 hover:text-gold transition-colors"
+              >Contact</a
+            >
+          </div>
+          <a
+            href="https://wa.me/+918341075644?text=Hi!%20I'd%20like%20to%20book%20an%20appointment"
+            class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg transition-colors flex items-center"
+          >
+            <i data-lucide="message-circle" class="h-4 w-4 mr-2"></i>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-warm-gray to-white pt-16"
+    >
+      <div class="absolute inset-0 bg-black/10"></div>
+      <div class="relative z-10 text-center max-w-4xl mx-auto px-4 fade-in-up">
+        <h1
+          class="text-5xl md:text-7xl font-bold text-luxury-black mb-6 leading-tight"
+        >
+          Redefine Your
+          <span class="text-gold block">Beauty</span>
+        </h1>
+        <p
+          class="text-xl md:text-2xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed"
+        >
+          Experience premium unisex salon services where style meets
+          sophistication. Professional treatments for both men and women.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="#services"
+            class="bg-gold hover:bg-dark-gold text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
+          >
+            Explore Services
+          </a>
+          <a
+            href="https://wa.me/+918341075644?text=Hi!%20I'd%20like%20to%20book%20an%20appointment"
+            class="border-2 border-gold text-gold hover:bg-gold hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300"
+          >
+            Book Appointment
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Image -->
+      <div class="absolute right-0 top-0 w-1/2 h-full hidden lg:block">
+        <img
+          src="https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1200"
+          alt="Professional salon interior with modern styling chairs"
+          class="w-full h-full object-cover opacity-80"
+        />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="fade-in-up">
+            <h2 class="text-4xl font-bold text-luxury-black mb-6">
+              About Be On Mirrors Salon
+            </h2>
+            <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+              With over 15 years of excellence in the beauty industry, Be On
+              Mirrors Salon has been the premier destination for sophisticated
+              hair styling and beauty treatments. Our unisex approach ensures
+              that both men and women receive world-class services in a
+              luxurious, welcoming environment.
+            </p>
+            <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+              Our team of certified professionals specializes in cutting-edge
+              techniques, from precision cuts and creative coloring to advanced
+              hair treatments and styling. We believe that every client deserves
+              to look and feel their absolute best.
+            </p>
+            <div class="grid grid-cols-2 gap-6">
+              <div class="text-center">
+                <div class="text-3xl font-bold text-gold">15+</div>
+                <div class="text-gray-600">Years Experience</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-gold">5000+</div>
+                <div class="text-gray-600">Happy Clients</div>
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <img
+              src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800"
+              alt="Professional hair stylist working with client"
+              class="w-full rounded-lg shadow-2xl"
+            />
+            <div
+              class="absolute -bottom-6 -right-6 bg-gold text-white p-6 rounded-lg shadow-lg"
+            >
+              <i data-lucide="award" class="h-8 w-8 mb-2"></i>
+              <div class="font-bold">Award Winning</div>
+              <div class="text-sm">Salon Services</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Services Section -->
+    <section id="services" class="py-20 bg-warm-gray">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 fade-in-up">
+          <h2 class="text-4xl font-bold text-luxury-black mb-4">
+            Our Premium Services
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Discover our comprehensive range of professional beauty and grooming
+            services designed for both men and women
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Service Cards -->
+          <div
+            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
+          >
+            <div
+              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
+            >
+              <i data-lucide="scissors" class="h-8 w-8 text-gold"></i>
+            </div>
+            <h3 class="text-xl font-bold text-luxury-black mb-4">
+              Hair Cutting & Styling
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Professional precision cuts, modern styling, and creative designs
+              tailored to your personality and lifestyle.
+            </p>
+            <div class="text-gold font-semibold">Starting from $45</div>
+          </div>
+
+          <div
+            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
+          >
+            <div
+              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
+            >
+              <i data-lucide="palette" class="h-8 w-8 text-gold"></i>
+            </div>
+            <h3 class="text-xl font-bold text-luxury-black mb-4">
+              Hair Coloring
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Expert color treatments including highlights, balayage, ombre, and
+              fashion colors using premium products.
+            </p>
+            <div class="text-gold font-semibold">Starting from $85</div>
+          </div>
+
+          <div
+            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
+          >
+            <div
+              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
+            >
+              <i data-lucide="sparkles" class="h-8 w-8 text-gold"></i>
+            </div>
+            <h3 class="text-xl font-bold text-luxury-black mb-4">
+              Hair Treatments
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Nourishing treatments including keratin, deep conditioning, and
+              scalp therapies for healthy hair.
+            </p>
+            <div class="text-gold font-semibold">Starting from $65</div>
+          </div>
+
+          <div
+            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
+          >
+            <div
+              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
+            >
+              <i data-lucide="user" class="h-8 w-8 text-gold"></i>
+            </div>
+            <h3 class="text-xl font-bold text-luxury-black mb-4">
+              Men's Grooming
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Complete grooming services including beard trimming, styling, and
+              traditional barbering techniques.
+            </p>
+            <div class="text-gold font-semibold">Starting from $35</div>
+          </div>
+
+          <div
+            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
+          >
+            <div
+              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
+            >
+              <i data-lucide="zap" class="h-8 w-8 text-gold"></i>
+            </div>
+            <h3 class="text-xl font-bold text-luxury-black mb-4">
+              Hair Styling
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Special occasion styling, updos, blowouts, and creative styling
+              for events and photoshoots.
+            </p>
+            <div class="text-gold font-semibold">Starting from $55</div>
+          </div>
+
+          <div
+            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
+          >
+            <div
+              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
+            >
+              <i data-lucide="heart" class="h-8 w-8 text-gold"></i>
+            </div>
+            <h3 class="text-xl font-bold text-luxury-black mb-4">
+              Beauty Treatments
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Facial treatments, eyebrow shaping, and other beauty services to
+              complete your look.
+            </p>
+            <div class="text-gold font-semibold">Starting from $40</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 fade-in-up">
+          <h2 class="text-4xl font-bold text-luxury-black mb-4">
+            Our Work Gallery
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Take a look at some of our stunning transformations and creative
+            work
+          </p>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600"
+              alt="Professional hair coloring transformation"
+              class="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-300"
+            />
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"
+            >
+              <span class="text-white font-semibold">Hair Coloring</span>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqZ12I-iSdSc9f3ooNnmXXLhNTtbHwj1Dhh-oP4oetiB0C4HmoiZ8tGfjyqRQsyL6XI3EOXeSpD27lBKzkWkEaKRdP1-MUW4cJ8Ie7uDTof-bbUFrM6hs4XbqC1WFJJxDfAVasj=s1360-w1360-h1020"
+              alt="Modern men's haircut and styling"
+              class="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-300"
+            />
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"
+            >
+              <span class="text-white font-semibold">Men's Styling</span>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://lh3.googleusercontent.com/p/AF1QipOuVMTuM3Odn7it9ByFZh7WEOqU7EzFv6VvKPXE=w143-h179-n-k-no-nu"
+              alt="Elegant women's hair styling and treatment"
+              class="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-300"
+            />
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"
+            >
+              <span class="text-white font-semibold">Women's Styling</span>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://lh3.googleusercontent.com/p/AF1QipOoMLl6tiX3y21xW4TaM3Mdw3kjK4kMiqv6u0wG=s1360-w1360-h1020"
+              alt="Professional salon workspace and equipment"
+              class="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-300"
+            />
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"
+            >
+              <span class="text-white font-semibold">Modern Equipment</span>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://lh3.googleusercontent.com/p/AF1QipPRAW_nkMME2ee5rNl-sUQ-OBq198O_CuUpddQU=s1360-w1360-h1020"
+              alt="Luxurious salon interior design"
+              class="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-300"
+            />
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"
+            >
+              <span class="text-white font-semibold">Luxury Interior</span>
+            </div>
+          </div>
+
+          <div class="relative group overflow-hidden rounded-lg shadow-lg">
+            <img
+              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600"
+              alt="Creative hair styling and artistic work"
+              class="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-300"
+            />
+            <div
+              class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"
+            >
+              <span class="text-white font-semibold">Creative Styling</span>
+            </div>
+          </div>
+        </div>
+      </div>
+          
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-warm-gray">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 fade-in-up">
+          <h2 class="text-4xl font-bold text-luxury-black mb-4">
+            What Our Clients Say
+          </h2>
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+            Don't just take our word for it - hear from our satisfied clients
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="testimonial-card bg-white rounded-xl p-8 shadow-lg">
+            <div class="flex items-center mb-4">
+              <div class="flex text-gold">
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+              </div>
+            </div>
+            <p class="text-gray-600 mb-6 italic">
+              "Absolutely amazing experience! The stylist understood exactly
+              what I wanted and delivered beyond my expectations. The salon
+              atmosphere is so relaxing and professional."
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Client testimonial photo"
+                class="w-12 h-12 rounded-full mr-4 object-cover"
+              />
+              <div>
+                <div class="font-semibold text-luxury-black">Sarah Johnson</div>
+                <div class="text-sm text-gray-500">Regular Client</div>
+              </div>
+            </div>
+                      
+          </div>
+
+          <div class="testimonial-card bg-white rounded-xl p-8 shadow-lg">
+            <div class="flex items-center mb-4">
+              <div class="flex text-gold">
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+              </div>
+            </div>
+            <p class="text-gray-600 mb-6 italic">
+              "Best salon experience I've ever had! The team is incredibly
+              talented and the results speak for themselves. I always leave
+              feeling confident and stylish."
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100"
+                alt="Client testimonial photo"
+                class="w-12 h-12 rounded-full mr-4 object-cover"
+              />
+              <div>
+                <div class="font-semibold text-luxury-black">Michael Chen</div>
+                <div class="text-sm text-gray-500">Business Professional</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card bg-white rounded-xl p-8 shadow-lg">
+            <div class="flex items-center mb-4">
+              <div class="flex text-gold">
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+                <i data-lucide="star" class="h-5 w-5 fill-current"></i>
+              </div>
+            </div>
+            <p class="text-gray-600 mb-6 italic">
+              "From the moment I walked in, I felt welcomed and valued. The
+              attention to detail and level of service is unmatched. Highly
+              recommend to everyone!"
+            </p>
+            <div class="flex items-center">
+              <img
+                src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100"
+                alt="Client testimonial photo"
+                class="w-12 h-12 rounded-full mr-4 object-cover"
+              />
+              <div>
+                <div class="font-semibold text-luxury-black">
+                  Emma Rodriguez
+                </div>
+                <div class="text-sm text-gray-500">Fashion Designer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-luxury-black text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="fade-in-up">
+            <h2 class="text-4xl font-bold mb-6">Get In Touch</h2>
+            <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+              Ready to transform your look? Contact us today to schedule your
+              appointment and experience the luxury of our premium salon
+              services.
+            </p>
+
+            <div class="space-y-6">
+              <div class="flex items-center">
+                <div
+                  class="w-12 h-12 bg-gold/20 rounded-lg flex items-center justify-center mr-4"
+                >
+                  <i data-lucide="map-pin" class="h-6 w-6 text-gold"></i>
+                </div>
+                <div>
+                  <div class="font-semibold">Visit Our Salon</div>
+                  <div class="text-gray-300">
+                    lane, opposite Ameenpur police station, Madhura Nagar
+                    Colony, Beeramguda, Hyderabad, Telangana 502032
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex items-center">
+                <div
+                  class="w-12 h-12 bg-gold/20 rounded-lg flex items-center justify-center mr-4"
+                >
+                  <i data-lucide="phone" class="h-6 w-6 text-gold"></i>
+                </div>
+                <div>
+                  <div class="font-semibold">Call Us</div>
+                  <div class="text-gray-300">+91 83410 75644</div>
+                </div>
+              </div>
+
+              <div class="flex items-center">
+                <div
+                  class="w-12 h-12 bg-gold/20 rounded-lg flex items-center justify-center mr-4"
+                >
+                  <i data-lucide="clock" class="h-6 w-6 text-gold"></i>
+                </div>
+                <div>
+                  <div class="font-semibold">Opening Hours</div>
+                  <div class="text-gray-300">
+                    Mon-Sat: 9AM-8PM | Sun: 10AM-6PM
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-8">
+              <a
+                href="https://wa.me/+918341075644?text=Hi!%20I'd%20like%20to%20book%20an%20appointment%20at%20Beonmirrors%20Salon"
+                class="inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
+              >
+                <i data-lucide="message-circle" class="h-6 w-6 mr-3"></i>
+                Book via WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <div class="relative">
+            <img
+              src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800"
+              alt="Modern salon reception area"
+              class="w-full rounded-lg shadow-2xl"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-luxury-black text-white py-12 border-t border-gray-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div class="col-span-2">
+            <div class="flex items-center mb-4">
+              <i data-lucide="scissors" class="h-8 w-8 text-gold mr-2"></i>
+              <span class="text-2xl font-bold">Be On Mirrors</span>
+            </div>
+            <p class="text-gray-300 mb-4 max-w-md">
+              Premier unisex salon offering professional beauty and grooming
+              services in a luxurious environment. Your style, our passion.
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="#"
+                class="w-10 h-10 bg-gold/20 rounded-lg flex items-center justify-center hover:bg-gold/30 transition-colors"
+              >
+                <i data-lucide="facebook" class="h-5 w-5 text-gold"></i>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 bg-gold/20 rounded-lg flex items-center justify-center hover:bg-gold/30 transition-colors"
+              >
+                <i data-lucide="instagram" class="h-5 w-5 text-gold"></i>
+              </a>
+              <a
+                href="#"
+                class="w-10 h-10 bg-gold/20 rounded-lg flex items-center justify-center hover:bg-gold/30 transition-colors"
+              >
+                <i data-lucide="twitter" class="h-5 w-5 text-gold"></i>
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="#home"
+                  class="text-gray-300 hover:text-gold transition-colors"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="text-gray-300 hover:text-gold transition-colors"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#services"
+                  class="text-gray-300 hover:text-gold transition-colors"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#gallery"
+                  class="text-gray-300 hover:text-gold transition-colors"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="text-gray-300 hover:text-gold transition-colors"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Services</h3>
+            <ul class="space-y-2">
+              <li><span class="text-gray-300">Hair Cutting</span></li>
+              <li><span class="text-gray-300">Hair Coloring</span></li>
+              <li><span class="text-gray-300">Hair Treatments</span></li>
+              <li><span class="text-gray-300">Men's Grooming</span></li>
+              <li><span class="text-gray-300">Hair Styling</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+          <p class="text-gray-300">
+            &copy; 2024 Be On Mirrors Unisex Salon. All rights reserved. |
+            <a href="#" class="text-gold hover:underline">Privacy Policy</a> |
+            <a href="#" class="text-gold hover:underline">Terms of Service</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+      // Initialize Lucide icons
+      lucide.createIcons();
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Add fade-in animation on scroll
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer1 = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("fade-in-up");
+          }
+        });
+      }, observerOptions);
+
+      // Observe all sections for animation
+      document.querySelectorAll("section").forEach((section) => {
+        observer.observe(section);
+      });
+
+      // Mobile menu toggle (if needed)
+      const mobileMenuToggle = () => {
+        // Add mobile menu functionality if needed
+      };
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        function showBusiness() {
+          const hash = window.location.hash.replace("#", "");
+          if (hash && hash !== "be-on-mirrors") {
+            // Hide Be On Mirrors content
+            document.body.innerHTML = `
+        <div style="max-width:600px;margin:60px auto 0 auto;font-family:sans-serif;background:#fff;border-radius:12px;box-shadow:0 4px 32px #0002;padding:36px 28px 40px 28px;text-align:center;">
+          <h1 style="color:#1a237e;font-size:2.2em;margin-bottom:8px;">
+            <span id="biz-title">Business</span>
+          </h1>
+          <div style="font-size:1.2em;color:#555;margin-bottom:20px;" id="biz-desc"></div>
+          <div style="margin:20px 0;">
+            <b>Contact: </b><span id="biz-phone"></span><br>
+            <b>WhatsApp: </b><span id="biz-whatsapp"></span>
+          </div>
+          <div style="margin:18px 0;">
+            <b>Address:</b><br>
+            <span id="biz-address"></span>
+          </div>
+          <a href="index.html" style="display:inline-block;margin-top:24px;color:#fff;background:#2196f3;padding:10px 20px;border-radius:5px;text-decoration:none;">Back to Be On Mirrors</a>
+        </div>
+      `;
+            // Simple data -- expand this as you add more businesses!
+            const businesses = {
+              "unix-salon": {
+                name: "UNIX Salon & Beauty Parlour",
+                desc: "Your trusted destination for professional beauty and grooming services in Hyderabad.",
+                phone: "099485 04143",
+                whatsapp: "919948504143",
+                address:
+                  "Shop No.C 9 10 M.S.R. Residency, Near Monday Market, Sai Colony, Jayalaxmi Nagar, Beeramguda, Ramachandrapuram, Telangana 502032",
+              },
+              "black-white-salon": {
+                name: "Black & White Hair & Beauty",
+                desc: "Experience premium hair and beauty services at Hyderabad's trusted unisex salon.",
+                phone: "To be updated",
+                whatsapp: "918341075644",
+                address:
+                  "Burger King, Sekhar's arcade, 25-35/3/D, RC Puram Rd, Beeramguda, Hyderabad, Ramachandrapuram (BHEL Township), Telangana 502032",
+              },
+              "cutes-beauty-salon": {
+                name: "Cutes Beauty Salon",
+                desc: "Complete beauty solutions for men and women at Hyderabad's modern beauty salon.",
+                phone: "081210 21089",
+                whatsapp: "918121021089",
+                address:
+                  "25-36-8/A, Krishna Reddy Pet Rd, Mallikarjuna Nagar, Raghavendra Colony, Ramachandrapuram, Hyderabad, Telangana 502032",
+              },
+            };
+            const biz = businesses[hash];
+            if (biz) {
+              document.getElementById("biz-title").textContent = biz.name;
+              document.getElementById("biz-desc").textContent = biz.desc;
+              document.getElementById("biz-phone").textContent = biz.phone;
+              document.getElementById("biz-whatsapp").textContent =
+                biz.whatsapp;
+              document.getElementById("biz-address").textContent = biz.address;
+            } else {
+              document.getElementById("biz-title").textContent =
+                "Business Not Found";
+              document.getElementById("biz-desc").textContent = "";
+              document.getElementById("biz-phone").textContent = "-";
+              document.getElementById("biz-whatsapp").textContent = "-";
+              document.getElementById("biz-address").textContent = "-";
+            }
+          }
+          // If no hash or be-on-mirrors: show original content (do nothing)
+        }
+        window.addEventListener("hashchange", showBusiness);
+        showBusiness();
+      });
+    </script>
+  </body>
+</html>
+
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Gallery Carousel Functionality
+        let currentSlide = 0;
+        const totalSlides = 3;
+        const slides = document.getElementById('gallery-slides');
+        const dots = document.querySelectorAll('.gallery-dot');
+
+        function showSlide(index) {
+            currentSlide = index;
+            slides.style.transform = `translateX(-${index * 100}%)`;
+            
+            dots.forEach((dot, i) => {
+                if (i === index) {
+                    dot.classList.remove('bg-gray-300');
+                    dot.classList.add('bg-purple-600');
+                } else {
+                    dot.classList.remove('bg-purple-600');
+                    dot.classList.add('bg-gray-300');
+                }
+            });
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide === totalSlides - 1 ? 0 : currentSlide + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentSlide === 0 ? totalSlides - 1 : currentSlide - 1);
+        }
+
+        // Event listeners
+        document.getElementById('nextBtn').addEventListener('click', nextSlide);
+        document.getElementById('prevBtn').addEventListener('click', prevSlide);
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => showSlide(index));
+        });
+
+        // Auto-slide every 5 seconds
+        setInterval(nextSlide, 5000);
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to navbar
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-lg');
+                nav.classList.remove('shadow-sm');
+            } else {
+                nav.classList.add('shadow-sm');
+                nav.classList.remove('shadow-lg');
+            }
+        });
+
+        // Animate elements on scroll
+        const observerOptions1 = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions1);
+
+        // Observe all service cards and testimonials
+        document.querySelectorAll('.card-hover').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.6s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
