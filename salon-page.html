@@ -314,115 +314,11 @@
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <!-- Service Cards -->
-          <div
-            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
-          >
-            <div
-              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
-            >
-              <i data-lucide="scissors" class="h-8 w-8 text-gold"></i>
-            </div>
-            <h3 class="text-xl font-bold text-luxury-black mb-4">
-              Hair Cutting & Styling
-            </h3>
-            <p class="text-gray-600 mb-4">
-              Professional precision cuts, modern styling, and creative designs
-              tailored to your personality and lifestyle.
-            </p>
-            <div class="text-gold font-semibold">Starting from $45</div>
-          </div>
-
-          <div
-            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
-          >
-            <div
-              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
-            >
-              <i data-lucide="palette" class="h-8 w-8 text-gold"></i>
-            </div>
-            <h3 class="text-xl font-bold text-luxury-black mb-4">
-              Hair Coloring
-            </h3>
-            <p class="text-gray-600 mb-4">
-              Expert color treatments including highlights, balayage, ombre, and
-              fashion colors using premium products.
-            </p>
-            <div class="text-gold font-semibold">Starting from $85</div>
-          </div>
-
-          <div
-            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
-          >
-            <div
-              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
-            >
-              <i data-lucide="sparkles" class="h-8 w-8 text-gold"></i>
-            </div>
-            <h3 class="text-xl font-bold text-luxury-black mb-4">
-              Hair Treatments
-            </h3>
-            <p class="text-gray-600 mb-4">
-              Nourishing treatments including keratin, deep conditioning, and
-              scalp therapies for healthy hair.
-            </p>
-            <div class="text-gold font-semibold">Starting from $65</div>
-          </div>
-
-          <div
-            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
-          >
-            <div
-              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
-            >
-              <i data-lucide="user" class="h-8 w-8 text-gold"></i>
-            </div>
-            <h3 class="text-xl font-bold text-luxury-black mb-4">
-              Men's Grooming
-            </h3>
-            <p class="text-gray-600 mb-4">
-              Complete grooming services including beard trimming, styling, and
-              traditional barbering techniques.
-            </p>
-            <div class="text-gold font-semibold">Starting from $35</div>
-          </div>
-
-          <div
-            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
-          >
-            <div
-              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
-            >
-              <i data-lucide="zap" class="h-8 w-8 text-gold"></i>
-            </div>
-            <h3 class="text-xl font-bold text-luxury-black mb-4">
-              Hair Styling
-            </h3>
-            <p class="text-gray-600 mb-4">
-              Special occasion styling, updos, blowouts, and creative styling
-              for events and photoshoots.
-            </p>
-            <div class="text-gold font-semibold">Starting from $55</div>
-          </div>
-
-          <div
-            class="service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
-          >
-            <div
-              class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6"
-            >
-              <i data-lucide="heart" class="h-8 w-8 text-gold"></i>
-            </div>
-            <h3 class="text-xl font-bold text-luxury-black mb-4">
-              Beauty Treatments
-            </h3>
-            <p class="text-gray-600 mb-4">
-              Facial treatments, eyebrow shaping, and other beauty services to
-              complete your look.
-            </p>
-            <div class="text-gold font-semibold">Starting from $40</div>
-          </div>
+        <div
+          id="services-container"
+          class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
+          <!-- Services will be loaded dynamically -->
         </div>
       </div>
     </section>
@@ -736,6 +632,16 @@
                     "https://images.pexels.com/photos/3992841/pexels-photo-3992841.jpeg?auto=compress&cs=tinysrgb&w=800",
                   ],
                 },
+                services: [
+                  {
+                    id: "hair-cutting",
+                    name: "Hair Cutting & Styling",
+                    icon: "scissors",
+                    description: "Professional precision cuts and styling.",
+                    price: "Starting from ₹500",
+                    features: ["Precision cuts", "Modern styling"],
+                  },
+                ],
                 testimonials: [
                   {
                     name: "Default Client",
@@ -805,6 +711,9 @@
         ).textContent = `Located in ${business.area}, ${business.name} has been serving the Hyderabad community with premium beauty and grooming services. Our team of skilled professionals is dedicated to helping you look and feel your absolute best.`;
         document.getElementById("about-image").src = business.images.about;
 
+        // Load services dynamically
+        loadServices(business.services);
+
         // Update gallery
         loadGallery(business.images.gallery);
 
@@ -846,6 +755,47 @@
         document.getElementById("footer-address").textContent =
           business.address;
         document.getElementById("footer-copyright").textContent = business.name;
+      }
+
+      function loadServices(services) {
+        const servicesContainer = document.getElementById("services-container");
+        servicesContainer.innerHTML = "";
+
+        services.forEach((service) => {
+          const serviceCard = document.createElement("div");
+          serviceCard.className =
+            "service-card bg-white rounded-xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300";
+
+          serviceCard.innerHTML = `
+            <div class="w-16 h-16 bg-gold/10 rounded-lg flex items-center justify-center mb-6">
+              <i data-lucide="${service.icon}" class="h-8 w-8 text-gold"></i>
+            </div>
+            <h3 class="text-xl font-bold text-luxury-black mb-4">
+              ${service.name}
+            </h3>
+            <p class="text-gray-600 mb-4">
+              ${service.description}
+            </p>
+            <div class="text-gold font-semibold mb-4">${service.price}</div>
+            <div class="space-y-2">
+              ${service.features
+                .map(
+                  (feature) => `
+                <div class="flex items-center text-sm text-gray-600">
+                  <i data-lucide="check" class="w-4 h-4 text-green-500 mr-2"></i>
+                  <span>${feature}</span>
+                </div>
+              `
+                )
+                .join("")}
+            </div>
+          `;
+
+          servicesContainer.appendChild(serviceCard);
+        });
+
+        // Re-initialize Lucide icons for new services
+        lucide.createIcons();
       }
 
       function loadGallery(images) {

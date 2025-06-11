@@ -26,6 +26,87 @@
           "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800"
         ]
       },
+      "services": [
+        {
+          "id": "hair-cutting",
+          "name": "Hair Cutting & Styling",
+          "icon": "scissors",
+          "description": "Professional precision cuts, modern styling, and creative designs tailored to your personality and lifestyle.",
+          "price": "Starting from ₹500",
+          "features": [
+            "Precision cuts",
+            "Modern styling",
+            "Creative designs",
+            "Personalized consultation"
+          ]
+        },
+        {
+          "id": "hair-coloring",
+          "name": "Hair Coloring",
+          "icon": "palette",
+          "description": "Expert color treatments including highlights, balayage, ombre, and fashion colors using premium products.",
+          "price": "Starting from ₹1500",
+          "features": [
+            "Highlights",
+            "Balayage",
+            "Ombre",
+            "Fashion colors",
+            "Premium products"
+          ]
+        },
+        {
+          "id": "hair-treatments",
+          "name": "Hair Treatments",
+          "icon": "sparkles",
+          "description": "Nourishing treatments including keratin, deep conditioning, and scalp therapies for healthy hair.",
+          "price": "Starting from ₹1200",
+          "features": [
+            "Keratin treatment",
+            "Deep conditioning",
+            "Scalp therapy",
+            "Hair repair"
+          ]
+        },
+        {
+          "id": "mens-grooming",
+          "name": "Men's Grooming",
+          "icon": "user",
+          "description": "Complete grooming services including beard trimming, styling, and traditional barbering techniques.",
+          "price": "Starting from ₹300",
+          "features": [
+            "Beard trimming",
+            "Traditional barbering",
+            "Styling",
+            "Grooming consultation"
+          ]
+        },
+        {
+          "id": "hair-styling",
+          "name": "Hair Styling",
+          "icon": "zap",
+          "description": "Special occasion styling, updos, blowouts, and creative styling for events and photoshoots.",
+          "price": "Starting from ₹800",
+          "features": [
+            "Special occasion styling",
+            "Updos",
+            "Blowouts",
+            "Event styling"
+          ]
+        },
+        {
+          "id": "beauty-treatments",
+          "name": "Beauty Treatments",
+          "icon": "heart",
+          "description": "Facial treatments, eyebrow shaping, and other beauty services to complete your look.",
+          "price": "Starting from ₹600",
+          "features": [
+            "Facial treatments",
+            "Eyebrow shaping",
+            "Beauty consultation",
+            "Skin care"
+          ]
+        }
+      ],
       "testimonials": [
         {
           "name": "Sarah Johnson",
@@ -76,6 +157,86 @@
           "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800"
         ]
       },
+      "services": [
+        {
+          "id": "professional-cuts",
+          "name": "Professional Hair Cuts",
+          "icon": "scissors",
+          "description": "Expert precision cuts and modern styling for both men and women with personalized consultation.",
+          "price": "Starting from ₹400",
+          "features": [
+            "Precision cuts",
+            "Unisex styling",
+            "Modern techniques",
+            "Style consultation"
+          ]
+        },
+        {
+          "id": "color-services",
+          "name": "Hair Coloring Services",
+          "icon": "palette",
+          "description": "Complete color services including highlights, lowlights, and creative color transformations.",
+          "price": "Starting from ₹1200",
+          "features": [
+            "Highlights & lowlights",
+            "Color correction",
+            "Creative colors",
+            "Color consultation"
+          ]
+        },
+        {
+          "id": "hair-care",
+          "name": "Hair Care Treatments",
+          "icon": "sparkles",
+          "description": "Intensive hair treatments for damaged hair, including protein treatments and deep conditioning.",
+          "price": "Starting from ₹1000",
+          "features": [
+            "Protein treatments",
+            "Deep conditioning",
+            "Hair repair",
+            "Scalp treatments"
+          ]
+        },
+        {
+          "id": "bridal-services",
+          "name": "Bridal Services",
+          "icon": "crown",
+          "description": "Complete bridal makeover packages including hair styling, makeup, and beauty treatments.",
+          "price": "Starting from ₹5000",
+          "features": [
+            "Bridal hair styling",
+            "Makeup",
+            "Pre-bridal treatments",
+            "Trial sessions"
+          ]
+        },
+        {
+          "id": "mens-services",
+          "name": "Men's Grooming",
+          "icon": "user",
+          "description": "Comprehensive men's grooming including haircuts, beard styling, and facial treatments.",
+          "price": "Starting from ₹250",
+          "features": [
+            "Modern haircuts",
+            "Beard styling",
+            "Facial treatments",
+            "Grooming packages"
+          ]
+        },
+        {
+          "id": "beauty-services",
+          "name": "Beauty & Wellness",
+          "icon": "heart",
+          "description": "Complete beauty services including facials, threading, and relaxation treatments.",
+          "price": "Starting from ₹500",
+          "features": [
+            "Facial treatments",
+            "Threading",
+            "Waxing",
+            "Relaxation therapy"
+          ]
+        }
+      ],
       "testimonials": [
         {
           "name": "Priya Sharma",
@@ -126,6 +287,86 @@
           "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800"
         ]
       },
+      "services": [
+        {
+          "id": "classic-cuts",
+          "name": "Classic Hair Cuts",
+          "icon": "scissors",
+          "description": "Traditional and modern haircuts with expert styling for all hair types and preferences.",
+          "price": "Starting from ₹350",
+          "features": [
+            "Traditional cuts",
+            "Modern styling",
+            "All hair types",
+            "Expert consultation"
+          ]
+        },
+        {
+          "id": "color-treatments",
+          "name": "Hair Color & Highlights",
+          "icon": "palette",
+          "description": "Professional hair coloring services with natural and vibrant color options.",
+          "price": "Starting from ₹1000",
+          "features": [
+            "Natural colors",
+            "Vibrant shades",
+            "Highlights",
+            "Color maintenance"
+          ]
+        },
+        {
+          "id": "hair-therapy",
+          "name": "Hair Therapy",
+          "icon": "sparkles",
+          "description": "Therapeutic hair treatments for hair fall, dandruff, and overall hair health improvement.",
+          "price": "Starting from ₹800",
+          "features": [
+            "Hair fall treatment",
+            "Dandruff control",
+            "Hair strengthening",
+            "Scalp massage"
+          ]
+        },
+        {
+          "id": "facial-services",
+          "name": "Facial Treatments",
+          "icon": "smile",
+          "description": "Rejuvenating facial treatments for all skin types with natural and organic products.",
+          "price": "Starting from ₹600",
+          "features": [
+            "All skin types",
+            "Natural products",
+            "Anti-aging",
+            "Deep cleansing"
+          ]
+        },
+        {
+          "id": "traditional-services",
+          "name": "Traditional Beauty",
+          "icon": "flower",
+          "description": "Traditional beauty services including threading, waxing, and herbal treatments.",
+          "price": "Starting from ₹200",
+          "features": [
+            "Threading",
+            "Waxing",
+            "Herbal treatments",
+            "Traditional methods"
+          ]
+        },
+        {
+          "id": "party-makeup",
+          "name": "Party & Event Makeup",
+          "icon": "star",
+          "description": "Professional makeup services for parties, events, and special occasions.",
+          "price": "Starting from ₹1500",
+          "features": [
+            "Party makeup",
+            "Event styling",
+            "Special occasions",
+            "Professional products"
+          ]
+        }
+      ],
       "testimonials": [
         {
           "name": "Anita Kumar",
@@ -161,21 +402,77 @@
       "whatsapp": "918121021089",
       "area": "Ramachandrapuram",
       "images": {
-        "hero": "https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=1200",
-        "about": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800",
-        "contact": "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "hero": "https://images.pexels.com/photos/3738339/pexels-photo-3738339.jpeg",
+        "about": "https://t3.ftcdn.net/jpg/11/72/96/16/240_F_1172961647_R8CM7wFWq7AZTcMUwphQjHav0yPgvvbe.jpg",
+        "contact": "https://t4.ftcdn.net/jpg/02/84/63/83/240_F_284638341_QpwqNbbtC3U7KWh10PLEu5HzO1XgdTTt.jpg",
         "gallery": [
-          "https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600",
-          "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nqZ12I-iSdSc9f3ooNnmXXLhNTtbHwj1Dhh-oP4oetiB0C4HmoiZ8tGfjyqRQsyL6XI3EOXeSpD27lBKzkWkEaKRdP1-MUW4cJ8Ie7uDTof-bbUFrM6hs4XbqC1WFJJxDfAVasj=s1360-w1360-h1020",
-          "https://images.pexels.com/photos/3065171/pexels-photo-3065171.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/3997997/pexels-photo-3997997.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/3065307/pexels-photo-3065307.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.pexels.com/photos/3992865/pexels-photo-3992865.jpeg?auto=compress&cs=tinysrgb&w=800",
-          "https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600",
-          "https://images.pexels.com/photos/3992856/pexels-photo-3992856.jpeg?auto=compress&cs=tinysrgb&w=800"
+          "https://t3.ftcdn.net/jpg/01/06/86/50/240_F_106865006_h2gVaLqAxsaeTnIfZXWW7vXXtSxtXHT4.jpg",
+          "https://t3.ftcdn.net/jpg/06/92/33/90/240_F_692339039_pMJ9Zi1z11yYaoDAL17UCfXeeuMiaNH0.jpg",
+          "https://images.pexels.com/photos/1321916/pexels-photo-1321916.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "https://images.pexels.com/photos/2504952/pexels-photo-2504952.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "https://images.pexels.com/photos/1545585/pexels-photo-1545585.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "https://t4.ftcdn.net/jpg/11/39/52/69/240_F_1139526905_8m9Wv4MWlWxyr5q8JRVGGfZVpXcUSVRe.jpg",
+          "https://t4.ftcdn.net/jpg/01/01/75/99/240_F_101759983_umTprjVtO6sJb8fn4lHPMnMi5WXjUoeE.jpg",
+          "https://images.pexels.com/photos/1193942/pexels-photo-1193942.jpeg?auto=compress&cs=tinysrgb&w=600"
         ]
       },
+      "services": [
+        {
+          "id": "trendy-cuts",
+          "name": "Trendy Hair Cuts",
+          "icon": "scissors",
+          "description": "Latest trending haircuts and styles for both men and women with modern techniques.",
+          "price": "Starting from ₹300",
+          "features": [
+            "Latest trends",
+            "Modern techniques",
+            "Unisex styling",
+            "Style guidance"
+          ]
+        },
+
+        {
+          "id": "hair-wellness",
+          "name": "Hair Wellness",
+          "icon": "sparkles",
+          "description": "Comprehensive hair wellness treatments for healthy, strong, and beautiful hair.",
+          "price": "Starting from ₹700",
+          "features": [
+            "Hair wellness",
+            "Strength treatments",
+            "Shine enhancement",
+            "Health restoration"
+          ]
+        },
+
+        {
+          "id": "grooming-packages",
+          "name": "Grooming Packages",
+          "icon": "package",
+          "description": "Complete grooming packages for men and women with multiple services at discounted rates.",
+          "price": "Starting from ₹1200",
+          "features": [
+            "Complete packages",
+            "Multiple services",
+            "Discounted rates",
+            "Customizable"
+          ]
+        },
+        {
+          "id": "special-occasions",
+          "name": "Special Occasion Styling",
+          "icon": "calendar",
+          "description": "Professional styling services for weddings, parties, and special events.",
+          "price": "Starting from ₹2000",
+          "features": [
+            "Wedding styling",
+            "Party looks",
+            "Event makeup",
+            "Professional styling"
+          ]
+        }
+      ],
       "testimonials": [
         {
           "name": "Meera Joshi",
